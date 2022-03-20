@@ -1,0 +1,3 @@
+copy.sh
+exclusions.txt
+.git
