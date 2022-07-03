@@ -1,0 +1,225 @@
+:root {
+    --dark-color: #625757;
+    --lighter-color: #9D8F8F;
+    --gray-color: #BCBAB8;
+    --light-color: #F9F9F9;
+}
+body {
+    background: var(--light-color);
+    font-family: 'Manrope', sans-serif;
+}
+a {
+    color: var(--dark-color);
+    text-decoration: none;
+}
+a:hover, a.nav-link:hover {
+    color: var(--dark-color);
+    text-decoration: underline;
+}
+.nopadding {
+    padding: 0;
+}
+.lowercase {
+	text-transform: lowercase;
+}
+a.button {
+    display: inline-block;
+    padding: 6px 40px;
+    border-radius: 7px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+a.button:hover {
+    text-decoration: none;
+}
+a.btn-secondary {
+    border: 1px solid var(--dark-color);
+    background: none;
+    color: var(--dark-color);
+}
+a.btn-secondary:hover {
+    background: var(--dark-color);
+    color: var(--light-color);
+}
+a.btn-main {
+    border: 1px solid var(--dark-color);
+    background: var(--dark-color);
+    color: var(--light-color);
+}
+a.btn-main:hover {
+    background: #423a3a;
+    color: var(--light-color);
+}
+
+
+.bold-text {
+    font-weight: 700;
+}
+/* HEADER */
+header {
+    background-color:rgba(255, 255, 255, 0.8);
+    padding: 15px 65px;
+    position: fixed;
+    width: 100%;
+}
+
+.header_menu-menu, .header_menu-social, .header_menu-divider {
+    float: left;
+}
+
+.header_menu-divider {
+    padding: 0.5rem 15px;
+    color: var(--lighter-color);
+}
+nav {
+	font-size: 14px;
+}
+nav a.nav-link {
+	color: var(--dark-color);
+	padding: 0.5rem 11px;
+}
+.header_menu-menu nav a.nav-link:first-child {
+    padding-left: 0;
+}
+.logo {
+    margin-top: 6px;
+    text-align: center;
+}
+
+.profile_controls {
+    text-align: right;
+}
+.profile_controls-button, .profile_controls-myitems {
+    float: right
+}
+.profile_controls-myitems {
+    margin-right: 25px;
+}
+.profile_controls-button {
+    margin-top: 2px;
+
+}
+.mainpage-cover img {
+    width: 100%;
+}
+
+/* HEADER END */
+
+
+
+
+/* MAINPAGE COVER */
+.mainpage_cover {
+    background-image: url("../img/slider_image.png");
+    background-image: url("../img/slider_image.png");
+    height: 90vh;
+    background-size: 100%;
+    padding-top: 50vh;
+    text-align: center;
+    color: #fff;
+}
+.mainpage_cover-container {
+    width: 600px;
+    margin: 0 auto;
+}
+.mainpage_cover-title {
+    font-weight: 700;
+    font-size: 53px;
+    color: var(--light-color);
+    margin-bottom: 10px;
+}
+.mainpage_cover-description {
+    font-size: 14px;
+    color: var(--light-color);
+}
+a.btn-cover {
+    font-size: 18px;
+    width: 200px;
+    padding: 7px 20px;
+    margin-top: 35px;
+    border: 1px solid var(--light-color);;
+    background: none;
+    color: #fff;
+
+}
+a.btn-cover:hover {
+    background: var(--light-color);;
+    color: var(--dark-color);
+}
+
+
+/* MAINPAGE COVER END */
+
+
+
+
+
+
+/* MAINPAGE COLLECTION */
+
+.mainpage-collection_items {
+    margin-top: 40px;
+}
+
+
+.mainpage-collection_item {
+    width: 300px;
+    margin: 20px auto 40px auto;
+}
+.mainpage-collection_description {
+    margin: 80px 0 40px 0;
+    color: var(--dark-color);
+}
+.mainpage-collection_description h1 {
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: -0.6%;
+    margin-bottom: 20px;
+
+}
+.mainpage-collection_item--photo {
+    width: 100%;
+}
+.mainpage-collection_item--name {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+
+    color: var(--dark-color);
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+.mainpage-collection_item--price {
+    font-size: 14px;
+    text-align: center;
+    color: var(--dark-color);
+
+}
+.mainpage-collection_item--buttons {
+    margin-top: 25px;
+}
+.mainpage-collection_item--buttons a {
+    width: 100%;
+    padding: 6px 10px;
+}
+
+
+.mainpage-collection_item--buttons .row .col:first-child {
+    padding-right: 5px;
+}
+.mainpage-collection_item--buttons .row .col:last-child {
+    padding-left: 5px;
+}
+
+/* MAINPAGE COLLECTION END */
+    .mainpage-collection_item--price {
+
+    }
+    a.btn-cover {
+
+    }
